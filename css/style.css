@@ -1,5 +1,90 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: black;
+}
+
+footer{
+    min-height: 60px;
+    background-color: #757ddd;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-side{
+    flex-basis: calc((100% / 12) * 3) ;
+}
+
+.col-main{
+    flex-basis: calc((100% / 12) * 9) ;
+}
+
+.debug .col-side{
+    background-color: cornflowerblue;
+    border: 1px solid rgb(10, 7, 7);
+    min-height: 500px;
+    padding: 5px;
+    }
+
+.debug .col-main{
+    background-color: coral;
+    border: 1px solid black;
+    min-height: 500px;
+    padding: 5px;
+} 
+
+.side-col-first {
+    min-height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 5px;
+
+
+}
+.side-col-second {
+    min-height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.col-second__first{
+    min-height: 80px;
+    background-color: black;
+    border: 1px solid red;
+    margin-bottom: 4px;
+}
+
+.col-second__second{
+    min-height: 80px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.main-head{
+    min-height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.main-main{
+    min-height: 440px;
+    background-color: white;
+    border: 1px solid black; 
 }
