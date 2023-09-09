@@ -74,6 +74,14 @@ footer{
     min-height: 80px;
     background-color: black;
     border: 1px solid red;
+    margin-bottom: 4px;
+}
+
+.col-second__thirth {
+    background-color: yellow;
+    min-height: 200px;
+    border: 1px solid red;
+
 }
 
 .main-head{
